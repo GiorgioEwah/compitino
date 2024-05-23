@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/myriad-pro" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
+    <title>Compitino</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-col"></div>
+        <div class="navbar-logo">
+          <img src="img/logo_header.png" alt="Logo" style="height: 28px" />
+        </div>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#section1" id="link1">WELCOME</a></li>
+            <li><a href="#section2" id="link2">SHOWREEL</a></li>
+            <li><a href="#section3" id="link3">BUSINESS AREAS</a></li>
+            <li><a href="#section4" id="link4">CONTACTS</a></li>
+          </ul>
+        </div>
+        <div class="navbar-lang">ITA/ENG</div>
+        <div class="navbar-col"></div>
+      </div>
+      <div class="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div id="section1" class="section">
+        <div class="carousel">
+          <img src="img/Slider_03.jpg" class="active" alt="Slide 1" />
+          <img src="img/Slider_02.jpg" alt="Slide 2" />
+          <img src="img/Slider_01.jpg" alt="Slide 3" />
+          <div class="section1text" style="z-index: 1">
+            <p
+              style="
+                color: gray;
+                font-size: 25px;
+                font-family: 'Montserrat', sans-serif;
+                letter-spacing: 18px;
+              "
+            >
+              LOREM IPSUM 3
+            </p>
+            <h1>ESALTARE NEL TEMPO</h1>
+            <h1>L'EXPERIENCE DEL BRAND</h1>
+          </div>
+          <div class="carousel-indicators">
+            <div class="active" data-slide-to="0"></div>
+            <div data-slide-to="1"></div>
+            <div data-slide-to="2"></div>
+          </div>
+        </div>
+      </div>
+      <div id="section2" class="section" style="background: #0f1a20">
+        <div class="image-content">
+          <img src="img/EF_img.jpg" alt="Section Image" />
+        </div>
+        <div class="text-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisici elit, sed
+            eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquid ex ea commodi consequat. Consectetuer adipiscing
+            elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+            magna aliquam nostrud exerci tation ullamcorper suscipit
+            lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel
+            eum iriure dolor in hendrerit in vulputate velit esse molestie
+            consequat, vel illum dolore eu feugiat nulla facilisis at vero
+            eros et accumsan et iusto odio dignissim qui blandit praesent
+            luptatum.
+          </p>
+          <a href="">
+            <b style="color: white; font-size: 13px; text-transform: uppercase;">
+              download brochure
+            </b>
+          </a>
+        </div>
+      </div>
+      <div
+        id="section3"
+        class="section"
+        style="position: relative; overflow: hidden"
+      >
+        <p style="position: absolute; top: 1vh; z-index: 1; color: white">
+          DIGITAL SHOWREEL
+        </p>
+        <div class="video-container">
+          <video class="video-player" controls>
+            <source src="your_video_file.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <div id="section4" class="section" style="background: lightblue; height: 100vh;">
+          <div class="parallax-item item1"><img src="img/img01.jpg"/></div>
+          <div class="parallax-item item4"><img src="img/img03.jpg"/></div>
+          <div class="parallax-item item2"><img src="img/img02.jpg"/></div>
+          <div class="parallax-item item3"><img src="img/img03.jpg"/></div>
+          
+      </div>
+    </div>
+    <div class="footer">
+      <h2>Contact Us</h2>
+      <div class="contact-form">
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <textarea placeholder="Your Message"></textarea>
+        <button>Send</button>
+      </div>
+    </div>
+
+    <div class="faux-scrollbar">
+      <div class="faux-scrollbar-thumb"></div>
+    </div>
+  </body>
+</html>
